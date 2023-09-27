@@ -1,4 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .container{
     display: flex;
-    
+    background-color: hsl(42, 39%, 81%)  ;
+    padding: 3%;
+    margin: 40px;
+    font-size: 24px;
+
+
+}
+
+h1 {
+    width:200px;
+    margin: 0 auto;
+    background: rgb(211, 97, 4);
+    text-align: center;
+    font-family: "Georgia";
+
+}
+
+a:link {
+    color: red;
+  }
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: hotpink;
+  }
+  
+a:active {
+    color: blue;
+  }
+
+p2 {
+    color: rgb(198, 20, 20);
+    font: 100;
+    font-size: 24px;
 }
