@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <title>Leaflet</title>
+        <link href="./leaflet_demo.css" type="text/css" rel="stylesheet" />
+        <script src="./leaflet_demo.js" charset="utf-8" defer></script>
+    
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
         <h1>
             War in Ukraine 
         </h1>
@@ -9,6 +20,7 @@
         
     </head> 
 <body>
+    <div id="map" style="height: 40vh;"></div>  
     <style>
         body {
           background-image: url("MapUkraine.png")         
@@ -45,7 +57,21 @@
         </p2>
        
     </div>
-    
+        <div class ="imageclass">
+            
+            <img src="UkrainevsRussia.jpeg" alt="Ukraine vs Russia"> 
+            &ensp;  
+            <p3>Learn more about <a href="https://en.wikipedia.org/wiki/Ukraine" target=_blank>
+                Ukraine
+                </a>
+              
+            </p3>
+                &ensp;
+            <p4>Learn more about <a href="https://en.wikipedia.org/wiki/Russia" target=_blank>
+                Russia
+            </a>
+            </p4>
+    </div>
      
 </body>
 
