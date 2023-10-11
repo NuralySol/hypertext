@@ -23,14 +23,4 @@ kherson_marker.bindPopup("<b>Recently liberated City</b>");
 crimea_marker.bindPopup("<b>Crimea</b>");
 donetsk_marker.bindPopup("<b>Most of the fighting is in the East</b>")
 
-var myIcon = L.icon({
-    iconUrl: 'my-icon.png',
-    iconSize: [38, 95],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -76],
-    shadowUrl: 'my-icon-shadow.png',
-    shadowSize: [68, 95],
-    shadowAnchor: [22, 94]
-});
-
 L.marker([55.7558, 37.6173], {icon: myIcon}).addTo(myMap);
